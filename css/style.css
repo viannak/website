@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Arial-Black", Helvetica, Arial, sans-serif;
+}
+
+.palette {
+  background-color: #17252A;
+  background-color: #2B7A78;
+  background-color: #3AAFA9;
+  background-color: #DEF2F1;
+  background-color: #FEFFFF;
+}
+.selfie-image {
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.introduction{
+  background-color:#3AAFA9;
+}
+.about{
+  padding: 10px 15px;
+}
+h1 {
+  text-align: center;
+  font-size: 80px;
+  margin-bottom: 0px;
+  margin-top: 5px;
+  padding: 0;
+  color: #F3FFFF;
+  overflow: hidden;
+}
+
+h2 {
+  text-align: center;
+  font-size: 24px;
+  padding: 0;
+  margin: 0;
+  color: #17252A;
+  text-transform: uppercase;
+}
+h3{
+  text-align: center;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  color: #17252A;
+  text-transform: uppercase;
+}
+header{
+  background-color:#3AAFA9;
+  padding: 20px;
+  text-align: center;
+  }
+
+.selfie{
+  background-color:#3AAFA9;
+}
+body {
+  margin: 0;
+}
+
+.nav-item{
+  display: inline;
+}
+.nav-list {
+  text-align: center;
+  color:#17252A;
+}
+.all-home,
+.home-heading{
+  background-color: #DEF2F1;
+
+}
+img{
+  max-width:100%;
+}
+
+}
+h3{
+  margin-bottom: 10px;
+  margin-top: 2px;
+  background-color: #b3ffe6;
+  border-bottom: 5px solid #10AC84;
+}
+
+
+.section {
+  padding: 1.5rem;
+}
+
+
+.house-picture,
+.kitchen-picture,
+.bathroom-picture,
+.bedroom-pic,
+.livingroom-pic,
+{
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pinky,
+.travel
+.art {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  border: 3px solid white;
+}
+
+
+footer {
+  background-color: #3AAFA9;
+  height: 50px;
+  line-height: 50px;
+  text-align: right;
+  padding: 0 20px;
+  color: #F3FFFF;
+}
+.hamburger {
+  border: none;
+  width: 2em;
+  height: 2em;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  padding: 0;
+}
+.hamburger-line{
+  background-color: white;
+}
+@media screen and (min-width: 600px) {
+  .pinky-pictures,
+  .travel-pictures {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0.25em;
+  }
+
+
+@media screen and (min-width: 1000px){
+  .pinky-pictures,
+  .travel-pictures {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0.25em;
+  }
