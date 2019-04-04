@@ -7,7 +7,7 @@
     <title>My First Webpage</title>
   </head>
   <body>
-
+<!-- please indent your html! -->
 <header id="top">
     <nav class="nav-bar">
       <div type="button" name="hamburger" class="btn hamburger">
@@ -38,14 +38,14 @@
   </nav>
 </header>
 
-<main>
-<main class="introduction">
+<!-- this closes at the bottom fo the page with </main> is that right? -->
+<main class="introduction"> 
   <section id="intro-selfie" class="selfie">
     <div class="selfie-image"><img src="img/pinky-1.jpg" alt="selfie"/>
     </div>
     </div>
   </section>
-<main class="about">
+<!-- <main class="about">  <-- this doesn't have a closing tag! -->
 <section id="about-me">
       <p>
         Hello and welcome to my webpage, a blog dedicated to capture the start of my journey in learning website design. I started this in Feburary 2019 to practice coding and to share my affinity for interior design, as well as share pictures of my dog and favourite places in the world.
@@ -55,7 +55,7 @@
         I am a data-driven CPG marketer manager with an analytical background. I have a passion for problem solving in the intersection of marketing and technology to deliver a personalized brand experience. I am an aspiring dog-mom with an entrepreneurial drive to have my own business one day.
       </p>
   </section>
-<main class="home-heading">
+<!-- <main class="home-heading"> <-- this doesn't close? -->
 <section id="home-decor" class="decor">
       <h2>Home Decor</h2>
           <img class= "house-picture" src="img/house.jpg" alt="house"/><p>&copy;Don Gardner</p>
@@ -63,12 +63,13 @@
         I want a small, cozy traditional townhouse with a twist of the French European charm complete with herringbone hardwood floors, crown molding, and exposed wood beams.
       </p>
 
-<div class="all-home">
-  <figure class="home-kitchen">
+<section class="all-home">
     <h3>My Dream Kitchen</h3>
+    <!-- hey! I moved some of the tags around a bit, essentially I couldn't find more info but I think the figcaption tag is where all teh information about the img should live, but let me know if you find / read anything that says otherwise! -->
+    <figure class="home-kitchen">
       <img class="kitchen-picture"  src="img/Kitchen-3.jpg" alt="kitchen-tile">
-      <p>&copy;1111 Light Lane</p>
       <figcaption class="product-details">
+        <p>&copy;1111 Light Lane</p>
         <p class="kitchen-content">
           Kitchen island layout with white colour scheme, with marble countertops, subway title backsplash and a large farmhouse sink facing the window.
         </p>
@@ -111,7 +112,7 @@
     <a href="#Top">Back to Top</a>
   </figcaption>
 </figure>
-</div>
+</section>
 
 <section id="dog-mom">
 <h3>A Dog Mom's Life</h3>
@@ -139,7 +140,7 @@
     <img class="travel" src="img/singapore.jpg" alt="singapore">
     <img class="travel" src="img/hong-kong.jpg" alt="hong-kong">
   </div>
-      <nav>
+  <!-- Hey I took out the nav tag here because this is just a list of places (but they're not navigational links on the page to like other parts of your website) -->
           <ul class="travel-list">
             <li class="toronto">Toronto, Canada </li>
             <li class="florida">Disneyworld and Universal Studios, USA </li>
@@ -147,7 +148,6 @@
             <li class="vienna">Vienna, Austria </li>
             <li class="singapore"> Marina Bay Sands, Singapore </li>
             <li class="hkg"> Victoria Harbour, Hong Kong </li>
-      </nav>
   <a href="#Top"> Back to Top </a>
 </section>
 
