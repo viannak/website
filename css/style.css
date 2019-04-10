@@ -161,7 +161,7 @@ img{
 .bathroom-picture,
 .bedroom-pic,
 .livingroom-pic,{
-  max-width:1000%;
+  max-width:100%;
   margin: 0;
   padding:0;
 }
