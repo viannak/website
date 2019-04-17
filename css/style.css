@@ -8,6 +8,9 @@ html {
 
 .slogan{
 background-color: black;
+
+
+
 color:white;
 font-style: italic;
 margin: auto;
@@ -420,4 +423,8 @@ footer {
 .nav-item{
   display: inline-block;
   padding: 0;
+}
+
+.btn-hamburger{
+  display: none;
 }
